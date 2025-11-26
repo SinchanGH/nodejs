@@ -1,4 +1,5 @@
-/* if
+/* Types of conditions:-
+if
 if else
 if else if
 switch */

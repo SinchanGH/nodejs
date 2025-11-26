@@ -1,0 +1,14 @@
+Object:
+
+It is a collection of key value pair
+
+To access tye value of an object:
+  >console.log(board.name);
+  >console.log(board.write());
+
+
+
+
+   FUNCTION DECLARATION:                              FUNCTIONEXPRESSION:
+
+>  Hoisting can be achieved                    >  Hoisting cannot be achieved

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function abc() {
+        console.log("Iam abc");
+      }
+      function mnc() {
+        console.log("Iam on blur method");
+      }
+      function xyz() {
+        console.log("I am over mouse");
+      }
+      function efg() {
+        console.log("Iam moving out of the buttton");
+      }
+    </script>
+  </head>
+  <body>
+    <!-- <input type="text" name="fname" onchange="abc()" /> -->
+    <input type="text" name="fname" onblur="mnc()" onchange="abc()" />
+    <button onmouseover="xyz()" onmouseout="efg()">submit</button>
+  </body>
+</html>
